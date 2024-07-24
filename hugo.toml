@@ -1,0 +1,8 @@
+baseURL = 'https://mk4.top/'
+languageCode = 'en-us'
+title = 'mk'
+theme = 'hugo-book'
+
+[services]
+  [services.disqus]
+    shortname = 'mk4top'
