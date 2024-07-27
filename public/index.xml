@@ -6,7 +6,7 @@
     <description>Recent content in Introduction on mk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jul 2024 01:45:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:37:17 +0800</lastBuildDate>
     <atom:link href="https://mk4.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With ToC</title>
@@ -35,13 +35,6 @@
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://mk4.top/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like&#xA;▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become&#xA;▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    <item>
-      <title>Gopass2</title>
-      <link>https://mk4.top/posts/gopass2/</link>
-      <pubDate>Sun, 28 Jul 2024 01:45:46 +0800</pubDate>
-      <guid>https://mk4.top/posts/gopass2/</guid>
-      <description>this is test</description>
     </item>
     <item>
       <title>Gopass</title>
