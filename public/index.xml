@@ -6,7 +6,7 @@
     <description>Recent content in Introduction on mk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 01:45:46 +0800</lastBuildDate>
     <atom:link href="https://mk4.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>With ToC</title>
@@ -35,6 +35,20 @@
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://mk4.top/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like&#xA;▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become&#xA;▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    <item>
+      <title>Gopass2</title>
+      <link>https://mk4.top/posts/gopass2/</link>
+      <pubDate>Sun, 28 Jul 2024 01:45:46 +0800</pubDate>
+      <guid>https://mk4.top/posts/gopass2/</guid>
+      <description>this is test</description>
+    </item>
+    <item>
+      <title>Gopass</title>
+      <link>https://mk4.top/posts/gopass/</link>
+      <pubDate>Sun, 28 Jul 2024 00:37:17 +0800</pubDate>
+      <guid>https://mk4.top/posts/gopass/</guid>
+      <description>使用 gopass 管理密码。&#xA;安装 # Mac 上使用 Homebrew 安装 brew install gopass 源码安装 go install github.com/gopasspw/gopass@latest 使用 # 安装完成后确保 gopass 在系统的 PATH 中. 更多详细信息参考 docs&#xA;gopass setup 默认 gopass 初始化使用 gpg 加密和 git 存储。默认密码存储位置 $HOME/.local/share/gopass/stores/root 配置文件的位置为 $HOME/.config/gopass/config.&#xA;__ _ _ _ _ _ ___ ___ /&amp;#39;_ &amp;#39;\ /&amp;#39;_&amp;#39;\ ( &amp;#39;_&amp;#39;\ /&amp;#39;_&amp;#39; )/&amp;#39;,__)/&amp;#39;,__) ( (_) |( (_) )| (_) )( (_| |\__, \\__, \ &amp;#39;\__ |&amp;#39;\___/&amp;#39;| ,__/&amp;#39;&amp;#39;\__,_)(____/(____/ ( )_) | | | \___/&amp;#39; (_) 🌟 Welcome to gopass!</description>
     </item>
     <item>
       <title>(Hu)go Template Primer</title>
