@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Introduction # This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.">
+<meta name="description" content="
+  Introduction
+  #
+
+This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://mk4.top/posts/creating-a-new-theme/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/creating-a-new-theme/">
   <meta property="og:site_name" content="mk">
   <meta property="og:title" content="Creating a New Theme">
   <meta property="og:description" content="Introduction # This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I’ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won’t cover using CSS to style your theme.
-We’ll start with creating a new site with a very basic template.">
+We’ll start with creating a new site with a very basic template. Then we’ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2014-09-28T00:00:00+00:00">
     <meta property="article:modified_time" content="2014-09-28T00:00:00+00:00">
 <title>Creating a New Theme | mk</title>
-<link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="canonical" href="https://mk4.top/posts/creating-a-new-theme/">
-<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/creating-a-new-theme/">
+<link rel="stylesheet" href="/book.min.6c8b9d2a1fc95075ed7da46ca81060b39add8fff6741ac51259f768929281e2c.css" integrity="sha256-bIudKh/JUHXtfaRsqBBgs5rdj/9nQaxRJZ92iSkoHiw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.e68e736593cfaf0328902515e0ac6f65b7915738bf767e98e71612e5ca9c98b7.js" integrity="sha256-5o5zZZPPrwMokCUV4KxvZbeRVzi/dn6Y5xYS5cqcmLc=" crossorigin="anonymous"></script>
-
-  
-
+  <script defer src="/en.search.min.937ada617f96cb490bdf56b530b4df0ca6ab6ceda61497a22d7a75daa6e94d70.js" integrity="sha256-k3raYX&#43;Wy0kL31a1MLTfDKarbO2mFJeiLXp12qbpTXA=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -65,7 +66,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
 
 
 
@@ -136,8 +136,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-3049b9efa63db187c30edc63a05cabc2" class="toggle"  />
-    <label for="section-3049b9efa63db187c30edc63a05cabc2" class="flex justify-between">
+    <input type="checkbox" id="section-ecc9a759d07c1fca1526ef68527da299" class="toggle"  />
+    <label for="section-ecc9a759d07c1fca1526ef68527da299" class="flex justify-between">
       <a role="button" class="">Collapsed</a>
     </label>
   
@@ -193,8 +193,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-cc9801ae8a66f24a3d2df08228299408" class="toggle"  />
-    <label for="section-cc9801ae8a66f24a3d2df08228299408" class="flex justify-between">
+    <input type="checkbox" id="section-1405793e3da2172c47f46fea0086b327" class="toggle"  />
+    <label for="section-1405793e3da2172c47f46fea0086b327" class="flex justify-between">
       <a role="button" class="">Shortcodes</a>
     </label>
   
@@ -287,8 +287,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-d4c83c0dd655503a3da63d0c6550ed41" class="toggle"  />
-    <label for="section-d4c83c0dd655503a3da63d0c6550ed41" class="flex justify-between">
+    <input type="checkbox" id="section-3cbaf66f3b1282e636e81862768c0d2f" class="toggle"  />
+    <label for="section-3cbaf66f3b1282e636e81862768c0d2f" class="flex justify-between">
       <a href="/docs/shortcodes/section/" class="">Section</a>
     </label>
   
@@ -369,7 +369,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
   
 <ul>
   
@@ -406,7 +405,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Creating a New Theme</strong>
+  <h3>Creating a New Theme</h3>
 
   <label for="toc-control">
     
@@ -491,11 +490,14 @@ https://github.com/alex-shpak/hugo-book
       
       
 <article class="markdown book-post">
-  <h1>
-    <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
-  </h1>
+  <h2>
+    Creating a New Theme
+  </h2>
   
-  <h5>September 28, 2014</h5>
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>September 28, 2014</span>
+  </div>
 
 
 
@@ -504,8 +506,7 @@ https://github.com/alex-shpak/hugo-book
   
 
 
-
-<h2 id="introduction">
+  <div class="book-post-content"><h2 id="introduction">
   Introduction
   <a class="anchor" href="#introduction">#</a>
 </h2>
@@ -1445,6 +1446,7 @@ $ vi themes/zafta/layouts/_default/single.html
   <a class="anchor" href="#dont-repeat-yourself">#</a>
 </h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
+</div>
 </article>
  
       
